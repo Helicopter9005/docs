@@ -5,8 +5,8 @@ const ToggleSwitch = () => {
   return (
     <div className={styles.switchButton}>
       <input className={styles.switchButtonCheckbox} type="checkbox" />
-      <label className={styles.switchButtonLabel} for="">
-        <span className={styles.switchButtonLabelSpan}>V4</span>
+      <label className={styles.switchButtonLabel} htmlFor="">
+        <span className={styles.switchButtonLabelSpan}>v4</span>
       </label>
     </div>
   )
